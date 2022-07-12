@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Dancing Script", cursive;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.text {
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+.btn-cookie {
+	width: 250px;
+	height: 80px;
+	background-color: dodgerblue;
+	border-radius: 5px;
+	border: 2px solid black;
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	font-size: 2.2rem;
+}
+
+.btn-cookie:hover {
+	background-color: rgb(34, 30, 255);
+}
+
+.boxbtn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.nextcookie {
+	margin-left: 10px;
+}
+
+.box {
+	width: 400px;
+	height: 400px;
+	background-image: url(../IMG/cookie.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.circle {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.eat {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.eatOne {
+	left: 690px;
+	background-color: white;
+}
+.eatTwo {
+	left: 762px;
+	top: 250px;
+	background-color: white;
+}
